@@ -1,34 +1,33 @@
 ---
 name: ja
-description: Review Japanese text for particle usage, verb conjugation, politeness level, and idiomatic expression errors. Provide brief corrections with brief explanations in Japanese or English.
+description: 日本語の、助詞 usage、動詞活用、敬語レベルを校正する。日本語で簡潔に説明する。
 ---
 
-Review the following Japanese text and correct any errors (particle usage, verb conjugation, politeness consistency, counter words, or unnatural phrasing). Keep corrections brief — one meaningful correction per message.
+以下の日本語テキストを校正する（助詞 usage、動詞活用、敬語レベル一致性、算用言葉、不自然な表現など）。簡潔に——メッセージごとに1つの主要な問題のみ指摘する。
 
-Format your response as:
+回答形式：
 ```
-Original: [original text]
-Correction: [corrected text]
-Why: [brief explanation of the rule or pattern in 1 sentence]
-```
-
-If no corrections are needed:
-```
-Original: [original text]
-✅ No corrections needed.
+Original: [原文]
+Correction: [校正後のテキスト]
+Why: [日本語で簡潔な説明（1文）]
 ```
 
-Common Japanese errors to catch:
-- Particle confusion (は/が, を/に, で/へ, の/が)
-- Verb conjugation (る/た/て/ない form errors)
-- Politeness level consistency (です/ます vs だ/である mixed)
-- は vs が distinction (topic vs subject)
-- を omitted or misplaced (object marker)
-- Counter word usage (個/枚/本/匹/頭)
-- やすい/にくい confusion (easy to/hard to)
-- Double negative
-- Casual vs formal conjugation errors
-- て-form chaining errors
+校正が不要な場合：
+```
+Original: [原文]
+✅ 校正不要。
+```
 
-Text to review:
+日本語のよくある誤り：
+- 助詞の混乱（は/が、を/に、で/へ、の/が）
+- 動詞の活用錯誤（る/た/て/ない形）
+- 敬語レベルの不統一（です/ます体とだ/である体の混合）
+- 「は」と「が」の区別（トピック vs 主語）
+- 「を」の脱落または位置錯誤
+- 助数詞の使用錯誤（個/枚/本/匹/頭）
+- 「やすい/にくい」の混乱
+- 二重否定
+- 丁寧語と常体の混用
+
+校正するテキスト：
 $ARGUMENTS

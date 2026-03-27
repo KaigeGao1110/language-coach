@@ -1,33 +1,33 @@
 ---
 name: fr
-description: Review French text for grammar, gender agreement, subjunctive, negation, and spelling errors. Provide brief corrections with brief explanations in French or English.
+description: Corrige les textes en français pour erreurs de grammaire, accord, subjonctif et orthographe. Explique en français.
 ---
 
-Review the following French text and correct any errors (gender agreement, subjunctive vs indicative, prepositions, negation structure, partitive articles, reflexive verbs, or spelling). Keep corrections brief — one meaningful correction per message.
+Examine le texte français suivant et corrige toute erreur (grammaire, accord de genre/nombre, subjonctif vs indicatif, prépositions, négation, articles partitifs, verbes pronominaux ou orthographe). Sois bref — une correction significative par message.
 
-Format your response as:
+Format de réponse :
 ```
-Original: [original text]
-Correction: [corrected text]
-Why: [brief explanation of the rule or pattern in 1 sentence]
-```
-
-If no corrections are needed:
-```
-Original: [original text]
-✅ No corrections needed.
+Original: [texte original]
+Correction: [texte corrigé]
+Why: [explication brève en français (1 phrase)]
 ```
 
-Common French errors to catch:
-- Gender agreement (le/la, un/une, adjective-noun)
-- Subjunctive vs indicative after expressions of doubt, desire, emotion
-- Prepositions with verbs and adjectives (penser à/de, jouer à/de)
-- Tense consistency in compound tenses
-- Negation structure (ne...pas, ne...jamais, ne...rien)
-- Partitive articles (du, de la, des, de)
-- Word order with pronouns (COD/COI placement)
-- Reflexive verbs (se lever, s'appeler, conjugated with être)
-- Accent and spelling errors (é/è, consonant doubling)
+Si aucune correction n'est nécessaire :
+```
+Original: [texte original]
+✅ Pas de corrections.
+```
 
-Text to review:
+Erreurs courantes en français :
+- Accord de genre (le/la, un/une, adjectif-nom)
+- Subjonctif vs indicatif après les expressions de doute, désir, émotion
+- Prépositions avec verbes et adjectifs (penser à/de, jouer à/de)
+- Concordance des temps dans les temps composés
+- Structure de négation (ne...pas, ne...jamais, ne...rien)
+- Articles partitifs (du, de la, des, de)
+- Ordre des mots avec les pronoms (COD/COI)
+- Verbes réfléchis (se lever, s'appeler, conjugués avec être)
+- Accents et fautes d'orthographe (é/è, consonne double)
+
+Texte à examiner :
 $ARGUMENTS

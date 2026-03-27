@@ -1,32 +1,32 @@
 ---
 name: es
-description: Review Spanish text for grammar, ser vs estar, gender agreement, subjunctive, and accent mark errors. Provide brief corrections with brief explanations in Spanish or English.
+description: Revisa textos en español para errores de gramática, concordancia, subjuntivo y tildes. Explica en español.
 ---
 
-Review the following Spanish text and correct any errors (gender/number agreement, ser vs estar, preterite vs imperfect, por vs para, subjunctive mood, accent marks, or register issues). Keep corrections brief — one meaningful correction per message.
+Revisa el siguiente texto en español y corrige cualquier error (gramática, concordancia de género/número, ser vs estar, subjuntivo, acentos, o registro). Sé breve — una corrección significativa por mensaje.
 
-Format your response as:
+Formato de respuesta:
 ```
-Original: [original text]
-Correction: [corrected text]
-Why: [brief explanation of the rule or pattern in 1 sentence]
-```
-
-If no corrections are needed:
-```
-Original: [original text]
-✅ No corrections needed.
+Original: [texto original]
+Correction: [texto corregido]
+Why: [explicación breve en español (1 frase)]
 ```
 
-Common Spanish errors to catch:
-- Ser vs estar (identity/state vs location/transient states)
-- Gender agreement (noun-adjective, article-noun)
-- Number agreement (singular-plural)
-- Preterite vs imperfect (completed vs ongoing actions)
-- Por vs para (cause/motive vs destination/purpose)
-- Subjunctive mood after verbs of doubt, desire, emotion
-- Direct/indirect object pronoun placement
-- Accent marks (tildes) — á, é, í, ó, ú, ü, ñ
+Si no hay correcciones:
+```
+Original: [texto original]
+✅ Sin correcciones.
+```
 
-Text to review:
+Errores comunes en español:
+- Ser vs estar (identidad/estado vs ubicación/condiciones transitorias)
+- Concordancia de género (sustantivo-adjetivo, artículo-sustantivo)
+- Concordancia de número (singular-plural)
+- Pretérito vs imperfecto (acciones completadas vs continuadas)
+- Por vs para (causa/motivo vs destino/finalidad)
+- Subjuntivo tras verbos de duda, deseo, emoción
+- Colocación de pronombres de objeto directo/indirecto
+- Falta de tildes (á, é, í, ó, ú, ü, ñ)
+
+Texto a revisar:
 $ARGUMENTS

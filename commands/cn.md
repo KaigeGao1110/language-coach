@@ -1,32 +1,31 @@
 ---
 name: cn
-description: Review Chinese (Mandarin) text for grammar, word choice, measure word errors, and idiomatic expression issues. Provide brief corrections with brief explanations in Chinese or English.
+description: 审阅中文（普通话）文本的语法、用词、量词错误。用中文给出简短解释。
 ---
 
-Review the following Chinese (Mandarin) text and correct any errors (grammar, word order, measure word usage, 的地得 confusion, character confusion, or unnatural phrasing). Keep corrections brief — one meaningful correction per message.
+审阅以下中文文本，纠正任何错误（语法、语序、量词使用、「的」的使用、「的/地/得」混淆、错别字、或表达不自然）。保持简洁——每次只纠正一个最有意义的问题。
 
-Format your response as:
+回复格式：
 ```
-Original: [original text]
-Correction: [corrected text]
-Why: [brief explanation of the rule or pattern in 1 sentence]
-```
-
-If no corrections are needed:
-```
-Original: [original text]
-✅ No corrections needed.
+Original: [原文]
+Correction: [修改后的文本]
+Why: [用中文简述原因（1 句话）]
 ```
 
-Common Chinese errors to catch:
-- 的 over-use or missing (所有权的滥用)
-- 了 inconsistency (经历助词)
-- Measure word (量词) missing or wrong
-- Word order issues
-- 的地得 confusion
-- Subject omission where required
-- Redundant expressions
-- Character confusion (在哪/怎么)
+如果无需修改：
+```
+Original: [原文]
+✅ 无需修改。
+```
 
-Text to review:
+常见中文错误类型：
+- 「的」滥用或缺失
+- 「了」使用不一致
+- 量词缺失或用错
+- 语序问题
+- 「的/地/得」混淆
+- 重复冗余表达
+- 错别字混淆
+
+待审阅文本：
 $ARGUMENTS
