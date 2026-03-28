@@ -38,12 +38,6 @@ unzip /tmp/language-coach.zip -d ~/.openclaw/skills/
 mv ~/.openclaw/skills/language-coach-main ~/.openclaw/skills/language-coach
 ```
 
-### Option 3: Copy from local workspace (this machine)
-```bash
-cp -r /home/ubuntu/.openclaw/workspace/skills/language-coach ~/.openclaw/skills/
-openclaw gateway restart
-```
-
 ## Tools
 
 ### language-coach-run
