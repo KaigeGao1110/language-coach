@@ -13,9 +13,6 @@ permissions: []
 dataPolicy:
   userText: never stored or transmitted externally
   neverExternal: true
-command-dispatch: tool
-command-tool: language-coach-run
-command-arg-mode: raw
 ---
 
 ## Installation
@@ -37,37 +34,6 @@ curl -L https://github.com/KaigeGao1110/language-coach/archive/refs/heads/main.z
 unzip /tmp/language-coach.zip -d ~/.openclaw/skills/
 mv ~/.openclaw/skills/language-coach-main ~/.openclaw/skills/language-coach
 ```
-
-## Tools
-
-### language-coach-run
-
-A tool that reviews text and returns corrections for multiple languages.
-
-**Supported Languages:**
-| Command | Language | Native Speakers |
-|---------|----------|-----------------|
-| //en    | English  | ~1.5B           |
-| //cn    | Chinese (Mandarin) | ~1.1B |
-| //es    | Spanish  | ~550M           |
-| //fr    | French   | ~280M           |
-| //ja    | Japanese | ~125M           |
-
-**Input:** Raw text following the language prefix (e.g., `//en I already send the report`)
-
-**What it does:**
-- Detects the language from the prefix
-- Returns corrections for grammar, word choice, collocations, and idiom errors
-- Format: correction with original, corrected version, and brief explanation
-
-**Examples:**
-- `//en I already send the report to Oleg yesterday`
-- `//cn 我来到了美国已经三年了`
-- `//es Yo tengo muchos años de experiencia`
-- `//fr Je suis très bonne en français`
-- `//ja 私は日本語が少し話せます`
-
----
 
 # Language Coach Skill
 
