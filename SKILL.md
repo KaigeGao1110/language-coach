@@ -1,18 +1,48 @@
 ---
 name: language-coach
-version: 2.0.0
+version: 2.0.1
+homepage: https://github.com/KaigeGao1110/language-coach
 description: |
   Multi-language writing coach for grammar, word choice, collocations, and idiom errors.
   Supports English, Chinese, Spanish, French, and Japanese.
   Activated via //en, //cn, //es, //fr, //ja slash commands.
-homepage: https://github.com/KaigeGao1110/language-coach
+dependencies: []
+required: {}
+configPaths: []
 permissions: []
 dataPolicy:
+  userText: never stored or transmitted externally
   neverExternal: true
 command-dispatch: tool
 command-tool: language-coach-run
 command-arg-mode: raw
 ---
+
+## Installation
+
+### Option 1: ClawhHub CLI (recommended)
+```bash
+openclaw skills install language-coach
+# or
+clawhub install language-coach
+```
+
+### Option 2: From GitHub
+```bash
+# Clone the repo
+git clone https://github.com/KaigeGao1110/language-coach.git ~/.openclaw/skills/language-coach
+
+# Or download directly
+curl -L https://github.com/KaigeGao1110/language-coach/archive/refs/heads/main.zip -o /tmp/language-coach.zip
+unzip /tmp/language-coach.zip -d ~/.openclaw/skills/
+mv ~/.openclaw/skills/language-coach-main ~/.openclaw/skills/language-coach
+```
+
+### Option 3: Copy from local workspace (this machine)
+```bash
+cp -r /home/ubuntu/.openclaw/workspace/skills/language-coach ~/.openclaw/skills/
+openclaw gateway restart
+```
 
 ## Tools
 
