@@ -1,6 +1,6 @@
 ---
 name: language-coach
-version: 2.0.1
+version: 2.0.2
 homepage: https://github.com/KaigeGao1110/language-coach
 description: |
   Multi-language writing coach for grammar, word choice, collocations, and idiom errors.
